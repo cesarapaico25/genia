@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8501
 
-CMD ["python", "app_alicorp.py"]  
+CMD ["streamlit", "run", "app_alicorp.py"]
